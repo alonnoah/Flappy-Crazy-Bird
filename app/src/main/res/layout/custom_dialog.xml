@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical"
+    android:background="@drawable/btn_gradient_style"
+    >
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/titleAttention"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/attention"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/attentionAnimation"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/titleAttention"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/attention"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/textQues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/attentionAnimation"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/are_you_sure_you_don_t_want_to_be_remembered"
+        android:textColor="@color/black"
+        android:layout_margin="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textQues"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <android.widget.Button
+            android:id="@+id/answerNo"
+            android:layout_width="wrap_content"
+            android:background="@drawable/btn_gradient_style"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:text="@string/no" />
+
+        <android.widget.Button
+            android:background="@drawable/btn_gradient_style"
+            android:id="@+id/answerYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:text="@string/yes" />
+    </LinearLayout>
+
+
+</RelativeLayout>

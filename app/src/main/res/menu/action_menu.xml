@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/coins"
+        android:icon="@drawable/money"
+        android:orderInCategory="1"
+        android:title="coins"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/coinsAmount"
+        android:orderInCategory="2"
+        android:titleCondensed=""
+        android:title="coinsAmount"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/soundMode"
+        android:icon="@drawable/volume_on"
+        android:orderInCategory="3"
+        android:title="sound"
+        app:showAsAction="always"
+        android:checkable="false"/>
+
+    <item
+        android:id="@+id/pause"
+        android:icon="@drawable/pause"
+        android:orderInCategory="4"
+        android:title="pause"
+        app:showAsAction="always" />
+</menu>

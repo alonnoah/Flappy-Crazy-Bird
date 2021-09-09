@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlappyBird</string>
+    <string name="best">תוצאת שיא</string>
+    <string name="restart">שחק שוב</string>
+    <string name="game_over">סוף משחק</string>
+    <string name="records">טבלת שיאים</string>
+    <string name="SHOP">חנות</string>
+    <string name="logout">התנתק</string>
+    <string name="records_table">טבלת שיאים</string>
+    <string name="username">שם משתמש</string>
+    <string name="score">תוצאה</string>
+    <string name="user_name">שם משתמש</string>
+    <string name="register">הירשם</string>
+    <string name="remember_me">זכור אותי</string>
+    <string name="password">סיסמא</string>
+    <string name="email">דואר אלקטרוני</string>
+    <string name="signin">התחבר</string>
+    <string name="guest_mode">שחק כארוח</string>
+    <string name="back">חזרה</string>
+    <string name="attention">תשמות לב!</string>
+    <string name="are_you_sure_you_don_t_want_to_be_remembered">את/ה בטוח/ה שאת/ה לא רוצה להישאר מחובר?</string>
+    <string name="no">לא</string>
+    <string name="yes">כן</string>
+    <string name="buy">קנה</string>
+    <string name="select">בחר</string>
+    <string name="please_press_play_to_continue">אנא לחץ להמשך</string>
+    <string name="shop">חנות</string>
+</resources>

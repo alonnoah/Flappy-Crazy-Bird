@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.flappybird.LoginActivity">
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/fonta"
+        android:text="@string/flappy_crazy_bird"
+        android:gravity="center"
+        android:textColor="@color/blue"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imageBird"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textV"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/green_bird" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/imageBird"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/edit_text_gradient_style"
+        android:gravity="center"
+        android:hint="@string/email"
+        android:textColor="@color/black"
+        android:textColorHint="#595858" />
+
+    <EditText
+        android:id="@+id/passEditText"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/emailEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/edit_text_gradient_style"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="#595858" />
+
+    <CheckBox
+        android:id="@+id/rememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passEditText"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/remember_me" />
+
+    <android.widget.Button
+        android:id="@+id/signInBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rememberMe"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_gradient_style"
+        android:fontFamily="@font/fonta"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/signin"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <android.widget.Button
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signInBtn"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_gradient_style"
+        android:fontFamily="@font/fonta"
+        android:text="@string/register"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <android.widget.Button
+        android:id="@+id/guestMode"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:background="@drawable/btn_gradient_style"
+        android:fontFamily="@font/fonta"
+        android:text="@string/guest_mode"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

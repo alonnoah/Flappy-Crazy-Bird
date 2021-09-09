@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.flappybird.MainActivity">
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/fonta"
+        android:text="@string/flappy_crazy_bird"
+        android:textColor="@color/blue"
+        android:gravity="center"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imageBird"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/textV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/green_bird" />
+
+    <TextView
+        android:id="@+id/userNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageBird"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/fonta"
+        android:text=""
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/playButton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:onClick="startGame"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/play_animation" />
+
+    <android.widget.Button
+        android:id="@+id/btnRecords"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/playButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_gradient_style"
+        android:fontFamily="@font/fonta"
+        android:text="@string/records"
+        android:textColor="@color/red"
+        android:textSize="30sp" />
+
+    <android.widget.Button
+        android:id="@+id/shopBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRecords"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_gradient_style"
+        android:fontFamily="@font/fonta"
+        android:text="@string/SHOP"
+        android:textColor="@color/red"
+        android:textSize="30sp" />
+
+    <android.widget.Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shopBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_gradient_style"
+        android:fontFamily="@font/fonta"
+        android:text="@string/logout"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+</RelativeLayout>

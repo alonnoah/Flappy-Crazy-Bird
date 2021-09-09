@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Flappy Crazy Bird</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="best">BEST</string>
+
+    <string name="restart">RESTART</string>
+    <string name="records">records</string>
+    <string name="flappy_crazy_bird" translatable="false">Flappy Crazy Bird</string>
+    <string name="SHOP">shop</string>
+    <string name="logout">logout</string>
+    <string name="records_table">RECORDS TABLE</string>
+    <string name="username">USERNAME</string>
+    <string name="score">SCORE</string>
+
+
+    <string name="user_name">user name</string>
+
+    <string name="register">register</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="flappycrazybird" translatable="false">FlappyCrazyBird</string>
+    <string name="signin">Signin</string>
+    <string name="guest_mode">guest mode</string>
+    <string name="back">BACK</string>
+    <string name="attention">Attention!</string>
+    <string name="are_you_sure_you_don_t_want_to_be_remembered">Are You Sure You Don\'t Want To Be Remembered?</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="buy">BUY</string>
+    <string name="select">SELECT</string>
+    <string name="please_press_play_to_continue">Please press \'\'PLAY\'\' to continue</string>
+    <string name="shop">SHOP</string>
+</resources>
